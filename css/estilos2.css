@@ -152,7 +152,7 @@ padding: 0;
         }
         /*media queries*/
 
-      @media screen and (max-width: 435px) {
+      @media screen and (min-width: 435px) {
             .div__nav {
                 text-align: right; !important
             } 
@@ -252,7 +252,8 @@ padding: 0;
             margin-top: 1rem;
             flex-direction: column;}
         }
-        @media screen and (max-width: 768px) {
+
+        @media screen and (min-width: 768px) {
             .div__nav {
                 text-align: right; !important}
             .carousel-inner {
@@ -345,7 +346,8 @@ padding: 0;
                     gap: 2rem;
                     margin: 2rem;}
                  }
-                 @media screen and (max-width: 1024px) {
+
+                 @media screen and (min-width: 1024px) {
                 .carousel-inner {
                     height: 30rem;}
                 .section__inicio2 {
