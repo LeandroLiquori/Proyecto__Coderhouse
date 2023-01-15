@@ -151,7 +151,7 @@ padding: 0;
             margin: 2rem;
         }
 
-      @media screen and (max-width: 435px) {
+      @media screen and (max-width: 437px) {
             .div__nav {
                 text-align: right;
             } 
