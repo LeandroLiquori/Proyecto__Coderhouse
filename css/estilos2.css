@@ -150,14 +150,13 @@ padding: 0;
             text-align: center;
             margin: 2rem;
         }
-        /*media queries*/
 
       @media screen and (max-width: 435px) {
             .div__nav {
                 text-align: right;
             } 
             .carousel-inner {
-            height: 15rem;
+            height: 14rem;
             }
             .section__inicio {
              display: flex;
@@ -258,7 +257,7 @@ padding: 0;
             margin-top: 1rem;
             flex-direction: column;}
         }
-
+     
         @media screen and (max-width: 769px) and (min-width: 440px){
             .div__nav {
                 text-align: right; !important}
@@ -359,105 +358,105 @@ padding: 0;
                     margin: 2rem;}
                  }
 
-                 @media screen and (min-width: 992px) and (max-width: 1026)
-                 {
-                .carousel-inner {
-                    height: 30rem;}
-                .section__inicio2 {
-                    display: flex;
-                    margin: 1rem;
-                    flex-direction: column;
-                        }
-                        .video {
-                    height: 37rem;
-                    padding: 2rem;
-                    margin-top: 4rem;
-                        }
-                        .div__biografia {
-                    display: flex;
-                    height: 90rem;
-                    gap: 0rem;
-                    flex-direction: column;
-                    margin: 3rem;
-                        }
-                        .div__image {
-                    display: flex;
-                    height: 115rem;
-                    justify-content: space-between;
-                    flex-direction: column;
-                    margin: 3rem;
-                    gap: 3rem;}
-                    
-                        .div__parrafo {
-                     display: flex;
-                    gap: 1rem;
-                    margin-left: 50px;
-                    margin-top: 30px;
-                    color: snow;
-                    flex-direction: column;
-                        }
-                        .parrafo__bio {
-                    display: flex;
-                    flex-direction: column;
-                    margin-top: 3rem;
-                    gap: 1rem;
-                    text-align: center;
-                 }
-                 .rounded float-end1{
-                    height: 35rem;
-                    width: 58rem;
+       @media screen and (min-width:992px) and (max-width:1025px){
+            .carousel-inner {
+                height: 30rem;}
+            .section__inicio2 {
+                display: flex;
+                margin: 1rem;
+                flex-direction: column;
                     }
-                    .div__imgseleccion {
-                        display: flex;
-                        height: 40rem;
-                        gap: 3rem;
+                    .video {
+                height: 37rem;
+                padding: 2rem;
+                margin-top: 4rem;
+                    }
+                    .div__biografia {
+                display: flex;
+                height: 90rem;
+                gap: 0rem;
+                flex-direction: column;
+                margin: 3rem;
+                    }
+                    .div__image {
+                display: flex;
+                height: 115rem;
+                justify-content: space-between;
+                flex-direction: column;
+                margin: 3rem;
+                gap: 3rem;}
+                
+                    .div__parrafo {
+                 display: flex;
+                gap: 1rem;
+                margin-left: 50px;
+                margin-top: 30px;
+                color: snow;
+                flex-direction: column;
+                    }
+                    .parrafo__bio {
+                display: flex;
+                flex-direction: column;
+                margin-top: 3rem;
+                gap: 1rem;
+                text-align: center;
+             }
+             .rounded float-end1{
+                height: 35rem;
+                width: 58rem;
+                }
+                .div__imgseleccion {
+                    display: flex;
+                    height: 40rem;
+                    gap: 3rem;
+                    margin: 3rem;
+                    margin-left: 6rem;
+                }
+                .div__seleccion {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 0rem;
+                    font-size: 20px;
+                 }
+                .div__pvideo {
+                    display: flex;
+                    gap: 1rem;
+                    margin: 1rem;
+                    flex-direction: column;}
+                .video__seleccion {
+                    height: 30rem;
+                }
+                .parrafo__seleccion3 {
+                    margin-top: 1rem;
+                    margin-left: 1rem;
+                }
+                .div__pvideo2 {
+                    display: flex;
+                    gap: 1rem;
+                    flex-direction: column;
+                }
+                .video__seleccion2 {
+                    margin: 1rem;
+                    height: 30rem;
+                }
+                .rounded.float-start {
+                    height: 35rem;
+                    width: 25rem;
+                }
+                .rounded.float-end {
+                    height: 35rem;
+                    width: 25rem;
+                 }
+                 .div__imgfamilia {
+                    display: flex;
+                    height: 120rem;
+                    margin-top: 1rem;
+                    flex-direction: column;
+                    gap: 0rem;}
+                    
+                    .rounded.float{
+                        height: 35rem;
+                        width: 58rem;
                         margin: 3rem;
                     }
-                    .div__seleccion {
-                        display: flex;
-                        flex-direction: column;
-                        gap: 0rem;
-                        font-size: 20px;
-                     }
-                    .div__pvideo {
-                        display: flex;
-                        gap: 1rem;
-                        margin: 1rem;
-                        flex-direction: column;}
-                    .video__seleccion {
-                        height: 30rem;
-                    }
-                    .parrafo__seleccion3 {
-                        margin-top: 1rem;
-                        margin-left: 1rem;
-                    }
-                    .div__pvideo2 {
-                        display: flex;
-                        gap: 1rem;
-                        flex-direction: column;
-                    }
-                    .video__seleccion2 {
-                        margin: 1rem;
-                        height: 30rem;
-                    }
-                    .rounded.float-start {
-                        height: 35rem;
-                        width: 25rem;
-                    }
-                    .rounded.float-end {
-                        height: 35rem;
-                        width: 25rem;
-                     }
-                     .div__imgfamilia {
-                        display: flex;
-                        height: 120rem;
-                        margin-top: 1rem;
-                        flex-direction: column;
-                        gap: 0rem;}
-                        
-                        .rounded.float{
-                            height: 35rem;
-                            width: 58rem;
-                            margin: 3rem;
-                        }
-                    }
+                }
