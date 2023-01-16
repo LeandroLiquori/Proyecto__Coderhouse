@@ -257,12 +257,12 @@ padding: 0;
         .parrafo__seleccion3 {
             text-align: center;
             margin: 1rem;}
-        .video__seleccion2 {
-            width: 75%;
-            height: 45%;
-    }
-        .img__seleccionmundial {
-            margin: 1rem;}
+
+        .img__seleccionmundial{
+            margin: 1rem;
+            height: 19rem;
+            width: 20rem;
+            margin-left: 4rem;}
 
         .div__imgfamilia {
             display: flex;
