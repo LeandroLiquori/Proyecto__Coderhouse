@@ -6,6 +6,9 @@
 .main{
 background-color: gray;
 }
+ .navbar-toggler{
+    background-color: white;
+ }
 .img__logo{
     width: 100px;
 }
@@ -177,8 +180,10 @@ padding: 0;
              margin: 1rem;
         }
         .video{
-            height: 16rem;
+            height: 50%;
             margin-top: 0rem;
+            width: 100%;
+        }
         }
         .div__biografia {
             display: flex;
