@@ -99,6 +99,12 @@ padding: 0;
     .parrafo__seleccion{
         margin: 4rem;
     }
+    .img__seleccionmundial {
+        border: none;
+        border-radius: var(--bs-border-radius);
+        height: 25rem;
+        margin-right: 1rem;}
+
     .display-3{
         text-align: center;
     }
@@ -241,8 +247,8 @@ padding: 0;
             flex-direction: column;
             text-align: center;}
         .video__seleccion{
-            width: 90%;
-            height: 50%;
+            width: 75%;
+            height: 45%;
         }
         .div__pvideo2 {
             display: flex;
@@ -252,10 +258,12 @@ padding: 0;
             text-align: center;
             margin: 1rem;}
         .video__seleccion2 {
-            margin: 40px;
-            width: 82%;
-            height: 50%;
+            width: 75%;
+            height: 45%;
     }
+        .img__seleccionmundial {
+            margin: 1rem;}
+
         .div__imgfamilia {
             display: flex;
             height: 55rem;
@@ -332,6 +340,17 @@ padding: 0;
                     margin: 3rem;
                     gap: 3rem;
                 }
+
+                .rounded.float-start {
+                    height: 25rem;
+                    width: 20rem;
+                    margin-left: 7rem;
+                }
+                .rounded.float-end {
+                    height: 25rem;
+                    width: 20rem;
+                    margin-left: 7rem;
+                 }
                 .div__pvideo {
                     display: flex;
                     gap: 3rem;
@@ -355,6 +374,12 @@ padding: 0;
                 .video__seleccion2 {
                     width: 42rem;
                     margin-left: 3rem;}
+
+                    .img__seleccionmundial {
+                        height: 18rem;
+                        width: 22rem;
+                        margin-left: 14rem;}
+
                  .div__imgfamilia {
                     display: flex;
                     height: 86rem;
@@ -410,13 +435,14 @@ padding: 0;
                 height: 35rem;
                 width: 58rem;
                 }
-                .div__imgseleccion {
+
+                .div__imgseleccion{
                     display: flex;
-                    height: 40rem;
+                    flex-direction: row;
                     gap: 3rem;
-                    margin: 3rem;
-                    margin-left: 6rem;
-                }
+                    margin-left: 1rem;
+                    margin-top: 3rem;}
+
                 .div__seleccion {
                     display: flex;
                     flex-direction: column;
@@ -444,14 +470,23 @@ padding: 0;
                     margin: 1rem;
                     height: 30rem;
                 }
-                .rounded.float-start {
-                    height: 35rem;
-                    width: 25rem;
+
+                .img__seleccionmundial {
+                    height: 25rem;
+                    width: 30rem;
+                    margin-left: 17rem;
                 }
-                .rounded.float-end {
-                    height: 35rem;
-                    width: 25rem;
-                 }
+
+                    .rounded.float-start {
+                        height: 25rem;
+                        width: 20rem;
+                        margin-left: 7rem;
+                    }
+                    .rounded.float-end {
+                        height: 25rem;
+                        width: 20rem;
+                        margin-left: 7rem;
+                     }
                  .div__imgfamilia {
                     display: flex;
                     height: 120rem;
