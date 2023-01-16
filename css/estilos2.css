@@ -184,7 +184,6 @@ padding: 0;
             margin-top: 0rem;
             width: 100%;
         }
-        }
         .div__biografia {
             display: flex;
             height: 50rem;
@@ -242,7 +241,8 @@ padding: 0;
             flex-direction: column;
             text-align: center;}
         .video__seleccion{
-            height: 14rem;
+            width: 90%;
+            height: 50%;
         }
         .div__pvideo2 {
             display: flex;
@@ -252,9 +252,9 @@ padding: 0;
             text-align: center;
             margin: 1rem;}
         .video__seleccion2 {
-            margin: 20px;
-            height: 14rem;
-            width: 25rem;
+            margin: 40px;
+            width: 82%;
+            height: 50%;
     }
         .div__imgfamilia {
             display: flex;
