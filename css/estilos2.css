@@ -205,9 +205,11 @@ padding: 0;
         }
 .div__biografia {
     display: flex;
-    height: 50rem;
+    height: auto;
     gap: 2rem;
-    flex-direction: column;}
+    flex-direction: column;
+    margin: 0rem;}
+
 .parrafo__bio {
     display: flex;
     flex-direction: column;
@@ -308,7 +310,8 @@ padding: 0;
     display: flex;
     height: auto;
     gap: 2rem;
-    flex-direction: column;}
+    flex-direction: column;
+    margin: 0rem;}
 .parrafo__bio {
     display: flex;
     flex-direction: column;
