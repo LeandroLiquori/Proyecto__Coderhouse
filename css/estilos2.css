@@ -474,7 +474,7 @@ padding: 0;
     margin: 1rem;
     flex-direction: column;}
 .seleccion2__video {
-    height: 30rem;
+    height: 17rem;
                 }
 .seleccion3__parrafo {
      margin-top: 1rem;
@@ -493,7 +493,6 @@ padding: 0;
 .seleccion3__img {
     height: 25rem;
     width: 30rem;
-    margin-left: 17rem;
                 }
 
 .rounded.float-start {
