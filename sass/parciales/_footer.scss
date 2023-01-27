@@ -1,0 +1,15 @@
+.footer{
+    margin: 0rem;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+   
+&__img{
+    height: 50px;
+    transition: height 3s;
+    }
+    
+&__img:hover{
+    height: 70px
+    }
+}

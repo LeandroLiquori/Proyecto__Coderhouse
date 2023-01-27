@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+background-color: gray;
+}
+ .navbar-toggler{
+    background-color: white;
+ }
+.img__logo{
+    width: 100px;
+}
+.carousel-inner{
+    height: 60vh;
+}
+.div__navbar{
+    background-color: black;
+}
+.navbar{
+padding: 0;
+}
+.nav-link{
+    color: white;
+}
+.div__form{
+    display: flex;
+    flex-direction: column;
+    width: 200%;
+    padding: 3rem;
+}
