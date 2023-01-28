@@ -30,6 +30,14 @@
   width: 200%;
   padding: 3rem; }
 
+.label__button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  color: white; }
+
 .section {
   display: flex; }
   .section__parrafo {

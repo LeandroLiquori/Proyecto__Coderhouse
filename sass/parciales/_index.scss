@@ -1,3 +1,11 @@
+.label__button{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
 .section{
     display: flex;
     &__parrafo
