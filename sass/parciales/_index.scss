@@ -8,20 +8,20 @@
     }
     &__inicio2 {
         display: flex;
-        margin: 1rem;
+        margin: $margin-section__inicio2;
         align-items: center;
         flex-direction: column;}
         &__parrafo1{
-            color: black;
+            color:$color-section__parrafo1;
             text-align: left;
-            font-size: 16px;
-            font-family: 'Times New Roman', Times, serif;  
+            font-size: $font-size-section__parrafo1;
+            font-family:$font-family-section__parrafo1;  
             flex-basis: 60%;
             display: flex;
             align-items: center;
             }
 } 
 .video {
-    height: 25rem;
-    padding: 2rem;
-    margin: 1rem;}
+    height:$height-video;
+    padding:$padding-video;
+    margin: $margin-video;}

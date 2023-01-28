@@ -3,18 +3,18 @@
     height: auto;
     gap: 1rem;
     flex-direction: column;
-    margin: 4rem;
+    margin: $margin-bio;
     &__parrafo {
         display: flex;
         flex-direction: column;
-        gap: 1rem;
+        gap: $gap-biografia__parrafo;
         text-align: center;
         margin: 1rem;}
        &__section{
             display: flex;
             text-align: center;
             gap: 3rem;
-            margin: 3rem;
+            margin:$margin-biografia__section;
                             }
 &__parrafo3 {
     text-align: center;

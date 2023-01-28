@@ -1,11 +1,11 @@
 .footer{
     margin: 0rem;
-    padding: 1rem;
+    padding: $padding-footer;
     display: flex;
     justify-content: space-evenly;
    
 &__img{
-    height: 50px;
+    height:$height-footer__img;
     transition: height 3s;
     }
     
